@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gis on ski resorts</title>
+    <link href='css/googleapis.css' rel='stylesheet' type='text/css'>
+    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="css/flexslider.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/queries.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+      </head>
+
+      <body id="top">
+        <header id="home">
+          <nav>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+                  <nav class="pull">
+                    <ul class="top-nav">
+                      <li><a href="#intro">Proyecto <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#responsive">Usuarios <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#features">Objetivos<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#team">Sobre la estación... <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#portfolio">Aplicaciones<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#somos">¿Quiénes somos? <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                      <li><a href="#contact">Contacto <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <section class="hero" id="hero">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+                  <h1 class="animated fadeInDown">GIS ON <span>SKI RESORTS</span></h1>
+                  <p class="animated fadeInUp delay-05s">                      . <em></em></p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="https://survey123.arcgis.com/share/6cf65b7c71db4c36a3c78ea637bc50af" target = black class="learn-more-btn"> <img src="img/logo.jpeg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </header>
+
+        <section class="intro text-center section-padding" id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">Nuestro Proyecto</h1>
+                <p>El proyecto <b>“GIS ON SKI RESORTS” </b>tiene como principal objetivo la mejora de la gestión y la eficiencia en las tareas de mantenimiento de una estación de esquí, y la actualización de la interfaz de cliente, perfeccionando la experiencia del visitante. Para ello se hace uso de las nuevas tecnologías GIS de ESRI.</p>
+                   <p>Como organización ofrecemos a los usuarios de la estación un visualizador 3D, una aplicación de creación de rutas que conectada a <em>Collector</em> aportará información en tiempo real sobre el estado de las instalaciones, y un formulario de incidencias.
+                     Para el funcionamiento interno, se han desarrollado tres herramientas de geoprocesamiento (riesgo de aludes, activación de cañones y registro de visitantes), un servicio de visualización en tiempo real de pisanieves, dos cuadros de mando y una aplicación que aporta estadísticas
+                     sobre los visitantes a partir de una encuesta de satisfacción.</p>
+                   <p>Estas soluciones incrementan la fluidez en la toma de decisiones, minimizando costes económicos y temporales, además de introducir nuevos servicios atractivos para los esquiadores.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-center" id="responsive">
+          <div class="container-fluid nopadding responsive-services">
+            <div class="wrapper">
+              <div class="iphone">
+                <div class="wp3"></div>
+              </div>
+              <div class="fluid-white"></div>
+            </div>
+            <div class="container designs">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                  <div id="servicesSlider">
+                    <ul class="slides">
+                      <li>
+                        <h1 class="arrow">Usuarios internos</h1>
+                        <p>Trabajadores de la estación y entidades subcontratadas. Serán aquellos responsables de utilizar los recursos tecnológicos (tecnología SIG) instalada en sus infraestructuras. Dentro se diferencian: </p>
+                        <ul>
+                          <li><b> Operarios de sala de control: </b> serán aquellos empleados que visualizarán los cuadros de mando con información en tiempo real, y quienes tomarán decisiones y supervisarán las tareas del resto de operarios. En su cometido se incluye la realización de algunas operaciones puntuales en desktop.</li>
+                          <li><b>Operarios de campo:</b> “pisters” y operarios de los remontes. Mediante aplicaciones de campo recibirán tareas que deben llevar a cabo <em>(Workforce)</em> y mediante la actualización de atributos, recolectarán datos necesarios para el mantenimiento de la estación <em>(Collector)</em>.</li>
+
+                        </ul>
+                      </li>
+                      <li>
+                        <h1 class="arrow">Usuarios externos</h1>
+                        <p> Son los <b>clientes de la estación</b> o esquiadores. Con diferentes aplicaciones de consulta podrán beneficiarse de los siguientes recursos: visualización de una mapa 3D de la estación, estado de las instalaciones y aplicaciones para la planificación de la jornada de esquí. </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features text-center section-padding" id="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Objetivos del proyecto</h1>
+                <div class="features-wrapper">
+                  <div class="col-md-4 wp2">
+                    <div class="icon">
+                      <i class="fa fa-laptop shadow"></i>
+                    </div>
+                    <h2>OBJETIVOS GENERALES</h2>
+                    <p>Con el transcurso del tiempo, la práctica de esquí, sus elementos y metodologías han ido sufriendo múltiples cambios y han ido evolucionando en función de las necesidades existentes. Por este motivo y destacando el avance tecnológico hoy en día en diversos ámbitos, nuestra organización estudia las diferentes necesidades y potenciales soluciones a problemas existentes en este sector, y su mejora, por medio de la tecnología SIG, la cual puede aportar múltiples beneficios en la gestión interna y externa de estaciones de esquí. </p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-code shadow"></i>
+                    </div>
+                    <h2>Objetivos para el usuario interno</h2>
+                    <div>
+                        <ul>
+                          <li>Para abordar la gestión interna de la estación de esquí, se han dividido las tareas y se han tratado de agrupar buscando la máxima eficacia y optimización de los recursos. Para ello se ha hecho uso de las aplicaciones: <em>Operations Dashboard for ArcGIS, Workforce for ArcGIS, Collector for ArcGIS y Survey 123</em> integradas entre sí. </li>
+                          <li> Además, se han desarrollado distintas herramientas orientadas a mejorar la coordinación y la eficacia en las tareas de mantenimiento de la estación, como  el cálculo de riesgo por aludes,  trabajo con cañones, rutas de pisanieves, registros de la afluencia de esquiadores y estadísticas según su procedencia.</li>
+                    </div>
+                  </div>
+                  <div class="col-md-4 wp2 delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-heart shadow"></i>
+                    </div>
+                    <h2>Objetivos para el usuario externo</h2>
+                    <div>
+                      <ul>
+                        <p>De cara a los esquiadores y visitantes de la estación se han diseñado aplicaciones atractivas, interactivas y de fácil uso, que facilitan y mejoran la experiencia del mismo, centradas en dos principales objetivos:</p>
+                        <li>Planificación rutas teniendo en cuenta el nivel de esquí, las pistas abiertas o cerradas, o la masificación de personas en los remontes.</li>
+                        <li> Visualización de la estación de esquí en tres dimensiones, permitiendo la interacción directa con los elementos que la integran y la información relacionada a ellos.</li>
+                    </div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Webcams -->
+
+        <div class="ignite-cta text-center"id="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="arrow">INFORMACIÓN DE INTERÉS PREVIA SOBRE LA ESTACIÓN </h1>
+              <p id = astun >El desarrollo de este proyecto integral, se ha adaptado a la estación de esquí <a href="https://www.astun.com/"target="_blank">Astún</a>, situada en el valle de Canfranc, Pirineo Aragonés (España), en el término municipal de Jaca. De esta manera, todos los datos y procesos realizados para el proyecto están fijados sobre la misma.
+                </p>
+                <p id =astun>  Para implementar este proyecto, se ha llevado a cabo un estudio previo de esta estación concreta: estructura, instalaciones, distribución, necesidades... Para ello se ha contado con información proviniente de diversas fuentes. A continuación se muestra el mapa de la estación obtenido de su página web oficial y las webcams que ofrecen la visualización de sus condiciones en tiempo real.</p>
+                <a href="https://www.astun.com/"target="_blank"><img src="img/pistas.jpg" alt="Portfolio Item" id = mapapistas></a>
+                <!--<a href="https://www.astun.com/"target="_blank" ><img src="img/FICHA.jpg" alt="Portfolio Item" id = mapapistas  ></a> -->
+
+            </div>
+          </div>
+        </div>
+        </div>
+                <div class="ignite-cta text-center"id="team">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1 class="arrow">  WEB CAMS </h1>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="ignite-cta text-center">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <a href="https://www.astun.com/es/webcams/16/canal-roya"target=black class="ignite-btn">CANAL ROYA</a>
+                          <a href="https://www.astun.com/es/webcams/18/cima-raca" target=black class="ignite-btn">RACA</a>
+                            <a href="https://www.astun.com/es/webcams/19/prado-blanco" target=black class="ignite-btn">PRADO BLANCO</a>
+                            <a href="https://www.astun.com/es/webcams/1/truchas" target=black class="ignite-btn">TRUCHAS</a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+        <!-- Fin Webcams -->
+
+                        <section class="swag text-center">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-8 col-md-offset-2">
+                                <h1>APLICACIONES</span></h1>
+                                <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+
+        <section class="portfolio text-center section-padding" id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div id="portfolioSlider">
+                <ul class="slides">
+                  <li>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/3D.png" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://gisonskiresorts.maps.arcgis.com/apps/webappviewer3d/index.html?id=aad2d84fc45b42aabbe8da1ae847d6f4" target="black"class="expand"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Visualizador 3D de la estación</h2>
+                      <p>Aplicación de consulta para usuarios de la estación, en la que podrán localizar las pistas, zonas de restauración y puntos de interés con una visión realista del entorno. </p>
+                    </div>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/routing.png" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://gisonskiresorts.maps.arcgis.com/apps/webappviewer/index.html?id=1980382b896e49bcb75bd7757f1efda3" class="expand" target = black ><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Aplicación cálculo de rutas</h2>
+                      <p>Proporciona un servicio de cálculo de rutas al cliente, generado con un <em>Network Dataset</em> que aporta el itinerario más rápido entre varios puntos o hasta la instalación más cercana teniendo en cuenta: el nivel del esquiador, las pistas y remontes abiertos o las retenciones en remontes por la acumulación de personas.</p>
+                    </div>
+
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/pisanieves2.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="http://localhost:8080/Pisanieves_RealTime/VisorNavegadorPisanieves.html" target="black" class="expand"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>PISANIEVES EN TIEMPO REAL</h2>
+                      <p>Se trata de un visualizador en el que los operarios de sala de control podrán observar el recorrido en tiempo real de las máquinas pisanieves de la estación durante su franja horaria de trabajo (tras el cierre diario al público de las instalaciones). </p>
+                    </div>
+
+                  </li>
+                  <li>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/gestioninterna.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://gisonskiresorts.maps.arcgis.com/apps/webappviewer/index.html?id=56703fbddb5249e19488c4a842f4db4a" target="black" class="expand"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>Aplicación para la gestión interna</h2>
+                      <p>En esta aplicación se han integrado en forma de widget los geoprocesamientos desarollados para la gestión interna de la estación: riesgo por aludes, cañones de la estación, y recuento de esquiadores.</p>
+                    </div>
+
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/mantenimiento.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://gisonskiresorts.maps.arcgis.com/apps/opsdashboard/index.html#/0e40956200394fea9213e4116da85705" class="expand" target="_blank"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>DASHBOARD DE GESTIÓN INTERNA</h2>
+                      <p>Este elemento está orientado al mantenimiento técnico de la estación y resulta esencial para la monitorización de las labores que se desarrollan diariamente, facilitando los flujos de trabajo y la toma de decisiones. </p>
+                    </div>
+
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/Incidencias.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://arcg.is/1jierX" target="_blank"class="expand"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>FORMULARIO INCIDENCIAS</h2>
+                      <p>Las incidencias que puedan tener lugar en la estación de esquí podrán ser notificadas mediante un cuestionario diseñado con <em>Survey123 for ArcGis</em>, que solicita respuesta a dos preguntas, una imagen y por último, la ubicación.</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/dashboard1.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://gisonskiresorts.maps.arcgis.com/apps/opsdashboard/index.html#/c0608438bb6a44d69ca80a52c95d8d6b" class="expand" target="_blank"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>DASHBOARD FUNCIONAMIENTO Y ACTIVIDAD EN LAS INSTALACIONES</h2>
+                      <p> Mediante este cuadro de mando, se representan de manera conjunta incidencias, tareas, operarios y sus posicionamientos geográficos, además del estado de las instalaciones, lo que facilita la toma de decisiones en la sala de control.</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/satisfaccion.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://survey123.arcgis.com/share/6cf65b7c71db4c36a3c78ea637bc50af" target="black" class="expand"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>ENCUESTA DE SATISFACCIÓN GENERAL SOBRE LA ESTACIÓN</h2>
+                      <p>Con el fin de conocer la opinión de los clientes, y tratar de perfeccionar el servicio ofrecido, se ha generado esta encuesta de satisfacción mediante <em>Survey 123.</em></p>
+                    </div>
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <img src="img/estadisticas.jpg" alt="Portfolio Item">
+                          <div class="overlay">
+                            <a href="https://gisonskiresorts.github.io/Consultaestadisticas/" target="_blank" class="expand"><i class="fa fa-search"></i><br>Acceder</a>
+                            <a class="close-overlay hidden">x</a>
+                          </div>
+                        </div>
+                      </div>
+                      <h2>APLICACIÓN ESTADÍSTICAS VISITANTES POR DISTANCIA</h2>
+                      <p>Estudia el perfil de los usuarios que visitan la estación en función de su procedencia, permitiendo localizar patrones o tendencias en sus características y observar de qué lugares proceden mayoritariamente.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="intro text-center section-padding" id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 wp1">
+                <h1 class="arrow">OTROS RECURSOS</h1>
+                <p>A continuación se muestran integrados algunos de los distintos recursos que se han ido obteniendo a lo largo de la realización del proyecto y pueden resultar de interés.</p>
+                <h1 class = "recursos" > <a href="https://gisonskiresorts.maps.arcgis.com/home/index.html" target = "_blank">ORGANIZACIÓN ARCGIS ONLINE</a></h1>
+                <h1 class = "recursos"> <a href="https://storymaps.arcgis.com/stories/f548843be24948a88dcb2eaad40927dd" target = "_blank">STORY MAPS SOBRE EL PROYECTO</a></h1>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="subscribe text-center">
+          <div class="container">
+            </form>
+          </div>
+        </section>
+
+<!-- Inicio trabajos -->
+
+      <section class="team text-center section-padding"id ="somos">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="arrow">EQUIPO DE GIS ON SKI RESORTS</h1 >
+            </div>
+          </div>
+          <div class="row">
+            <div class="team-wrapper">
+              <div id="teamSlider">
+                <ul class="slides">
+                  <li>
+                    <div class="col-md-4 wp5">
+                      <img src="img/team-01.jpg" alt="Team Member">
+                      <h2>David López Safont</h2>
+                      <p>Graduado en Geografía y Medio Ambiente por la Universidad de Valencia y técnico GIS.</p>
+                      <div class="social">
+                        <ul class="social-buttons">
+
+                          <li><a href="https://www.linkedin.com/in/david-l%C3%B3pez-b99739187/" class="social-btn" target = black><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 wp5 delay-05s">
+                      <img src="img/team-02.jpg" alt="Team Member">
+                      <h2>Raúl Nieva Cecilla</h2>
+                      <p>Graduado en Ingeniería del Medio Natural por la Universidad Politécnica de Madrid y técnico GIS. </p>
+                      <div class="social">
+                        <ul class="social-buttons">
+
+                          <li><a href="https://www.linkedin.com/in/raul-nieva-cecilla-03586b170/" class="social-btn" target = black><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-4 wp5 delay-1s">
+                      <img src="img/team-03.jpg" alt="Team Member">
+                      <h2>Natalia Pato Elices</h2>
+                      <p>Graduada en Ingeniería Geológica por la Universidad de Salamanca y técnico GIS. </p>
+                      <div class="social">
+                        <ul class="social-buttons">
+
+                          <li><a href="https://www.linkedin.com/in/natalia-pato-elices-79aa1b1a3/" class="social-btn" target = black><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- Fin trabajos -->
+
+        <section class="dark-bg text-center section-padding contact-wrap" id="contact">
+          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">¡CONTACTA CON NOSOTROS!</h1>
+              </div>
+            </div>
+            <div class="row contact-details">
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-map-marker"></i><span>DIRECCIÓN</span></h2>
+                  <p class = "centrar" >Calle Emilio Muñoz, 35, 28037 Madrid</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-mobile"></i><span>NÚMERO</span></h2>
+                  <p class = "centrar">662 0550 928</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="light-box box-hover">
+                  <h2><i class="fa fa-paper-plane"></i><span>CORREO</span></h2>
+                  <p class = "centrar"><a href="#">gisonskiresorts@gmail.com</a ></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="social-buttons">
+                  <!--<li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="legals">
+
+                </ul>
+              </div>
+              <div class="col-md-6 credit">
+
+                <p>Pagina web creada por Grupo 5 TFM  <a href="https://www.esri.es/" target = black ><em>Master presencial ESRI España</em></a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/modernizr.js"></script>
+
+      </body>
+    </html>
